@@ -57,6 +57,7 @@ button:active {
   border-radius: 20px;
   background: #00bf96;
   display: inline-block;
+  box-shadow: 0 3px 3px #575555 inset;
 }
 
 .value {
@@ -64,6 +65,7 @@ button:active {
   border-radius: 20px;
   background: #00816a;
   display: inline-block;
+  box-shadow: 0 3px 3px #575555 inset;
 }
 
 .label {
