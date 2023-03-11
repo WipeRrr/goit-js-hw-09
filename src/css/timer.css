@@ -3,12 +3,15 @@ body {
   background: rgb(116, 87, 68);
   font-family: sans-serif;
   font-weight: 100;
+
+  background: url('https://img.freepik.com/premium-photo/droste-effect-background-with-infinite-clock-spiral-abstract-design-concepts-related-time_521059-8013.jpg?w=1380');
+  background-size: cover;
 }
 
 #datetime-picker {
   padding: 10px;
   border-radius: 3px;
-  background: rgb(143, 117, 99);
+  background: rgb(224, 218, 214);
   display: block;
   margin: auto;
 }
@@ -27,9 +30,9 @@ button {
   border: 1px solid rgb(80, 32, 0);
   border-radius: 5px;
   outline: none;
-  background: rgb(147, 80, 36)
-    linear-gradient(rgb(106, 58, 26), rgb(147, 80, 36) 80%);
-  box-shadow: 0 6px rgb(86, 38, 6), 0 3px 15px rgba(0, 0, 0, 0.4),
+  background: rgb(204, 192, 183)
+    linear-gradient(rgb(175, 157, 145), rgb(147, 80, 36) 80%);
+  box-shadow: 0 6px rgb(219, 195, 179), 0 3px 15px rgba(0, 0, 0, 0.4),
     inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.5);
   transition: 0.2s;
 }
@@ -49,7 +52,7 @@ button:active {
 
 .timer {
   font-family: sans-serif;
-  color: #fff;
+  color: #380202;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -59,7 +62,7 @@ button:active {
 .field {
   padding: 10px;
   border-radius: 20px;
-  background: #00bf96;
+  background: #cfe4df;
   display: inline-block;
   box-shadow: 0 3px 3px #575555 inset;
 }
@@ -67,7 +70,7 @@ button:active {
 .value {
   padding: 15px;
   border-radius: 20px;
-  background: #00816a;
+  background: #e3f0ed;
   display: inline-block;
   box-shadow: 0 3px 3px #575555 inset;
 }

@@ -15,3 +15,5 @@ const options = {
 // const input = document.querySelector('#datetime-picker');
 
 flatpickr('#datetime-picker', { ...options });
+
+
