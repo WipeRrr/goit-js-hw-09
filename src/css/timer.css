@@ -55,7 +55,9 @@ button:disabled {
 }
 
 a {
-  color: #fff;
+  font-size: 70px;
+  color: rgb(204, 93, 20)
+
 }
 .timer {
   font-family: sans-serif;
