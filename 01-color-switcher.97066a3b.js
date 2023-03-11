@@ -1,2 +1,0 @@
-const o={bodySelector:document.querySelector("body"),btnStart:document.querySelector("data-start"),btnStop:document.querySelector("data-stop")};console.log("gde console???"),console.log("asdqwe");let t=null;function e(){bodySelector.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16)}`}console.log(btnStart),o.btnStart.addEventListener("click",(()=>{console.log("asdasd"),t=setTimeout(e,1e3),setTimeout()}));
-//# sourceMappingURL=01-color-switcher.97066a3b.js.map
