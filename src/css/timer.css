@@ -50,8 +50,12 @@ button:active {
   transform: translate(0, 4px);
 }
 
-a{
-  color:#fff
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: #fff;
 }
 .timer {
   font-family: sans-serif;
