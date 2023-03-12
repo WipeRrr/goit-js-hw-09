@@ -16,12 +16,12 @@ formEl.addEventListener('submit', e => {
     createPromise(index, delay)
       .then(({ position, delay }) => {
         Notiflix.Notify.success(
-          `✅ Fulfilled promise ${position} in ${delay}ms`
+          `✅ Fulfilled promise ${position+1} in ${delay}ms`
         );
       })
       .catch(({ position, delay }) => {
         Notiflix.Notify.failure(
-          `❌ Rejected promise ${position} in ${delay}ms`
+          `❌ Rejected promise ${position+1} in ${delay}ms`
         );
       });
     e.currentTarget.reset();
